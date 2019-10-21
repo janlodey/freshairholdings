@@ -1,0 +1,113 @@
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+
+}
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: 3rem;
+}
+
+
+.padded-row {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @media (min-width: 768px) {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+}
+
+.padded-row-small {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bk-grey {
+  background-color: #EDEDED;
+}
+
+.bk-light {
+  background-color: $blue-lighter;
+}
+
+.bk-green {
+  background-color: $primary;
+}
+
+
+.section__nav {
+  padding: 1rem 0;
+
+  .nav {
+    margin-top: 8px;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+
+.section__hero {
+  background: url("../images/bk-airmountains--export.jpg") no-repeat center $green;
+  background-size: cover;
+  color: $primary;
+
+  .section__hero-alpha {
+    height: 80vh;
+    // background-color: rgba(0,173,0,0.7);
+    background-color: rgba(33, 109, 183, 0.2);
+  }
+
+}
+
+
+.criteria-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+
+.criteria-boxes {
+  h5 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.grid-items {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .grid-item {
+    padding: .5rem;
+    width: 50%;
+
+    div {
+      height: 100%;
+      padding: 1rem;
+    }
+
+  }
+
+}
+
+
+.section__footer {
+  background: $navy;
+  color: white;
+}
